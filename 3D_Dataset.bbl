@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+
+\bibitem{MyungJin:CVPR2010}
+M.~J. Choi, J.~Lim, A.~Torralba, and A.~Willsky, ``Exploiting hierarchical
+  context on a large database of object categories,'' in {\em Computer Vision
+  and Pattern Recognition (CVPR), 2010 IEEE Conference on}, pp.~129--136, June
+  2010.
+
+\bibitem{Krishna:ECAI2010}
+K.~S.~R. Dubba, A.~G. Cohn, and D.~C. Hogg, ``Event model learning from complex
+  videos using ilp,'' in {\em Proc. ECAI}, vol.~215 of {\em Frontiers in
+  Artificial Intelligence and Applications}, pp.~93--98, IOS Press, 2010.
+
+\bibitem{Behera2012}
+A.~Behera, A.~G. Cohn, and D.~C. Hogg, ``Workflow activity monitoring using
+  dynamics of pair-wise qualitative spatial relations,'' in {\em Advances in
+  Multimedia Modeling}, pp.~196--209, Springer, 2012.
+
+\bibitem{Li:2012}
+L.-J. Li, H.~Su, Y.~Lim, and L.~Fei-Fei, ``Objects as attributes for scene
+  classification,'' in {\em Trends and Topics in Computer Vision}
+  (K.~Kutulakos, ed.), vol.~6553 of {\em Lecture Notes in Computer Science},
+  pp.~57--69, Springer Berlin Heidelberg, 2012.
+
+\bibitem{Koppula:NIPS2011}
+H.~S. Koppula, A.~Anand, T.~Joachims, and A.~Saxena, ``Semantic labeling of 3d
+  point clouds for indoor scenes,'' in {\em Advances in Neural Information
+  Processing Systems}, pp.~244--252, 2011.
+
+\bibitem{Fisher:ACMT2011}
+M.~Fisher, M.~Savva, and P.~Hanrahan, ``Characterizing structural relationships
+  in scenes using graph kernels,'' {\em ACM Trans. Graph.}, vol.~30,
+  pp.~34:1--34:12, July 2011.
+
+\bibitem{Aydemir:ICRA2011}
+A.~Aydemir, K.~Sjoo, J.~Folkesson, A.~Pronobis, and P.~Jensfelt, ``Search in
+  the real world: Active visual object search based on spatial relations,'' in
+  {\em Robotics and Automation (ICRA), 2011 IEEE International Conference on},
+  pp.~2818--2824, May 2011.
+
+\bibitem{Southey:2007}
+T.~Southey and J.~J. Little, ``Learning qualitative spatial relations for
+  object classification,'' in {\em IROS 2007 Workshop: From Sensors to Human
+  Spatial Concepts}, 2007.
+
+\bibitem{kasper:2011}
+A.~Kasper, R.~Jakel, and R.~Dillmann, ``Using spatial relations of objects in
+  real world scenes for scene structuring and scene understanding,'' in {\em
+  ICAR 2011: Proceedings of the 15th International Conference on Advanced
+  Robotics}, 2011.
+
+\bibitem{Janoch:ICCV2011}
+A.~Janoch, S.~Karayev, Y.~Jia, J.~Barron, M.~Fritz, K.~Saenko, and T.~Darrell,
+  ``A category-level 3-d object dataset: Putting the kinect to work,'' in {\em
+  Computer Vision Workshops (ICCV Workshops), 2011 IEEE International
+  Conference on}, pp.~1168--1174, Nov 2011.
+
+\bibitem{Silberman:ECCV2012}
+P.~K. Nathan~Silberman, Derek~Hoiem and R.~Fergus, ``Indoor segmentation and
+  support inference from rgbd images,'' in {\em ECCV}, 2012.
+
+\bibitem{Swadzba:RAS2012}
+A.~Swadzba and S.~Wachsmuth, ``A detailed analysis of a new 3d spatial feature
+  vector for indoor scene classification,'' {\em Robotics and Autonomous
+  Systems}, 2012.
+
+\bibitem{Lai:ICRA2011}
+K.~Lai, L.~Bo, X.~Ren, and D.~Fox, ``A large-scale hierarchical multi-view
+  rgb-d object dataset,'' in {\em Robotics and Automation (ICRA), 2011 IEEE
+  International Conference on}, pp.~1817--1824, May 2011.
+
+\bibitem{Russell:CVPR2009}
+B.~Russell and A.~Torralba, ``Building a database of 3d scenes from user
+  annotations,'' in {\em Computer Vision and Pattern Recognition, 2009. CVPR
+  2009. IEEE Conference on}, pp.~2711--2718, June 2009.
+
+\bibitem{Goransson13a}
+R.~G\"oransson, A.~Aydemir, and P.~Jensfelt, ``{Kinect@Home}: Crowdsourced
+  {RGB-D} data,'' in {\em Proc. of the 2002 IEEE/RSJ Intl. Conf. on Intelligent
+  Robots and Systems (IROS'02): Cloud Robotics Workshop}, 2013.
+
+\bibitem{Sun:ECCV2010}
+M.~Sun, G.~Bradski, B.-X. Xu, and S.~Savarese, ``Depth-encoded hough voting for
+  joint object detection and shape recovery,'' in {\em Computer Vision – ECCV
+  2010} (K.~Daniilidis, P.~Maragos, and N.~Paragios, eds.), vol.~6315 of {\em
+  Lecture Notes in Computer Science}, pp.~658--671, Springer Berlin Heidelberg,
+  2010.
+
+\bibitem{WillowGarage:2011}
+G.~Bradski and T.~Hong, ``Solution in perception challenge.,'' 2011.
+
+\bibitem{Kimmel:ACCV2010}
+S.~Helmer, D.~Meger, M.~Muja, J.~Little, and D.~Lowe, ``Multiple viewpoint
+  recognition and localization,'' in {\em Computer Vision – ACCV 2010}
+  (R.~Kimmel, R.~Klette, and A.~Sugimoto, eds.), vol.~6492 of {\em Lecture
+  Notes in Computer Science}, pp.~464--477, Springer Berlin Heidelberg, 2011.
+
+\bibitem{Buerkler:Online2012}
+O.~Buerkler, ``Scenect - faro technologies : http://www.faro.com/scenect,''
+  2012.
+
+\end{thebibliography}

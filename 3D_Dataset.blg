@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: 3D_Dataset.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--entry type for "Buerkler:Online2012" isn't style-file defined
+--line 324 of file references.bib
+Warning--entry type for "WillowGarage:2011" isn't style-file defined
+--line 358 of file references.bib
+You've used 19 entries,
+            1876 wiz_defined-function locations,
+            603 strings with 7445 characters,
+and the built_in function-call counts, 5854 in all, are:
+= -- 514
+> -- 252
+< -- 0
++ -- 89
+- -- 70
+* -- 432
+:= -- 793
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 318
+empty$ -- 610
+format.name$ -- 70
+if$ -- 1444
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 17
+newline$ -- 60
+num.names$ -- 25
+pop$ -- 115
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 207
+stack$ -- 0
+substring$ -- 375
+swap$ -- 123
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 49
+width$ -- 21
+write$ -- 174
+(There were 2 warnings)
