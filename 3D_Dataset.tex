@@ -533,49 +533,6 @@ markers which indicate that papers are not as dynamic as the mouse or mug,
 and hold their place usually for a couple of days on average. 
 The fact that there are often many papers in a scene adds to the uniformity.
 
-%\begin{figure}
-%\begin{center}
-%\includegraphics[width=\linewidth]{entropy_matrix-crop} \quad
-%\begin{tabular}{|l||c|c|c|c|c|c|c|c|c|c|c|c|c|}
-%\hline
-%& key & mon & mou & mug & lap & pap & boo & bot & jug & not \\ \hline \hline
-%key & 0.76 & 3.54 & 2.79 & 4.01 & 3.56 & 4.57 & 4.00 & 3.25 & 2.95 & 3.78\\ \hline
-%mon & 3.41 & 1.65 & 3.35 & 4.06 & 3.39 & 4.63 & 4.19 & 3.37 & 2.95 & 3.86\\ \hline
-%mou & 2.89 & 3.59 & 0.73 & 3.81 & 3.59 & 4.56 & 3.96 & 3.27 & 2.93 & 3.84 \\ \hline
-%mug & 4.08 & 4.21 & 3.71 & 0.74 & 3.67 & 4.47 & 3.99 & 3.17 & 3.08 & 3.73 \\ \hline
-%lap & 3.79 & 3.60 & 3.67 & 3.70 & 0.05 & 4.34 & 3.67 & 3.30 & 2.47 & 3.23 \\ \hline
-%pap & 4.45 & 4.50 & 4.22 & 4.41 & 4.01 & 2.76 & 4.30 & 3.72 & 3.36 & 3.84 \\ \hline
-%boo & 3.96 & 3.93 & 3.81 & 3.86 & 3.67 & 4.49 & 0.77 & 3.35 & 2.81 & 3.42 \\ \hline
-%bot & 3.47 & 3.64 & 3.44 & 3.42 & 3.17 & 4.03 & 3.33 & 1.03 & 2.74 & 2.58 \\ \hline
-%jug & 3.05 & 3.34 & 2.85 & 3.11 & 2.54 & 3.56 & 2.81 & 2.95 & 0.00 & 1.97 \\ \hline
-%not & 3.90 & 3.99 & 3.68 & 3.70 & 3.29 & 4.16 & 3.59 & 2.62 & 1.97 & 0.28 \\ \hline
-%\end{tabular}
-%\end{center}
-%\caption{The figure illustrates the entropy in the distribution of relative positions of one object (column) w.r.t. to another object (row). Dark red indicates high entropy (more uniform distr.) and dark blue low entropy (peakier distr.). We show this for the most frequently occurring object pairs in the dataset (i.e. most statistics); 1:keyboard, 2:monitor, 3:mouse, 4:mug, 5:laptop, 6:papers, 7:book, 8:bottle, 9:jug, 10:notebook. }
-%\label{fig:entropy}
-%\end{figure}
-
-%\begin{figure*}
-%\begin{center}
-%\begin{tabular}{|l||c|c|c|c|c|c|c|c|c|c|c|c|c|}
-%\hline
-%& $C_{1}$ & $C_{2}$ & $C_{3}$ & $C_{4}$ & $C_{5}$ & $C_{6}$ & $C_{7}$ & $C_{8}$ & $C_{9}$ & $C_{10}$ \\ \hline \hline
-%$C_1$: keyboard & 0.76 & 3.54 & 2.79 & 4.01 & 3.56 & 4.57 & 4.00 & 3.25 & 2.95 & 3.78\\ \hline
-%$C_2$: monitor & 3.41 & 1.65 & 3.35 & 4.06 & 3.39 & 4.63 & 4.19 & 3.37 & 2.95 & 3.86\\ \hline
-%$C_3$: mouse & 2.89 & 3.59 & 0.73 & 3.81 & 3.59 & 4.56 & 3.96 & 3.27 & 2.93 & 3.84 \\ \hline
-%$C_4$: mug & 4.08 & 4.21 & 3.71 & 0.74 & 3.67 & 4.47 & 3.99 & 3.17 & 3.08 & 3.73 \\ \hline
-%$C_5$: laptop & 3.79 & 3.60 & 3.67 & 3.70 & 0.05 & 4.34 & 3.67 & 3.30 & 2.47 & 3.23 \\ \hline
-%$C_6$: papers & 4.45 & 4.50 & 4.22 & 4.41 & 4.01 & 2.76 & 4.30 & 3.72 & 3.36 & 3.84 \\ \hline
-%$C_7$: book & 3.96 & 3.93 & 3.81 & 3.86 & 3.67 & 4.49 & 0.77 & 3.35 & 2.81 & 3.42 \\ \hline
-%$C_{8}$: bottle & 3.47 & 3.64 & 3.44 & 3.42 & 3.17 & 4.03 & 3.33 & 1.03 & 2.74 & 2.58 \\ \hline
-%$C_{9}$: jug & 3.05 & 3.34 & 2.85 & 3.11 & 2.54 & 3.56 & 2.81 & 2.95 & 0.00 & 1.97 \\ \hline
-%$C_{10}$: notebook & 3.90 & 3.99 & 3.68 & 3.70 & 3.29 & 4.16 & 3.59 & 2.62 & 1.97 & 0.28 \\ \hline
-%\end{tabular}
-%\label{fig:entropy}
-%\caption{The table shows the entropy in the spread in positions that results when looking at the position of one object (columns) with respect to that of another one (rows). As we can see papers have high entropy in combination with all other objects which indicates that the distribution of relative positions is close to uniform. Other combinations such as Keyboard and Mouse have much lower entropy, that is, more peaky distribution showing a stronger correlation.}
-%\end{center}
-%\end{figure*}
-
 \begin{figure*}
 \begin{center}
 \includegraphics[width=0.5\linewidth]{clean-data/EntropyMat-crop} \bigbreak
@@ -644,13 +601,18 @@ many cases.
 \section{Conclusions}
 \label{sec:Conclusions}
 
-We have shown that there is structure in the way that objects are
+We have shown that there is structure in many aspects of the manner that objects are
 arranged in scenes.  We can expect that robots operating over long periods 
 of time, repeatedly observing the same scenes and types of scenes, 
 will be able to learn models of this structure -- preserving the temporal 
 and instance variations in the scenes. 
 The large, manually annotated, benchmark 3D dataset we present, is one-of-a-kind -- 
-providing the means to train long-term autonomous learning systems for spatial understanding.
+providing the means to train long-term autonomous learning systems for spatial 
+understanding. We aim to extend this dataset with scenes pertaining to observations 
+with more temporal regularity. We will also create datasets of room level organisations of 
+objects and even different kinds of table-top scenes (viz.~cafeteria, medical, convenience 
+store table-tops) to explore the aspects of generalisability with respect to concept and 
+specificity in the purview of long term autonomous robotic learning.
 
 Our immediate research plans for this data are to learn and model the spatial relations amidst objects contained in the scenes. Such models and spatial relations can subsequently be tested, verified and also used by the autonomous robots in our collaborative research project (STRANDS) while they operate over months at various sites.  These will
 allow for activity recognition, anomaly detection, and context recognition.
@@ -664,7 +626,7 @@ Union Seventh Framework Programme (FP7/2007-2013) under grant agreement No 60062
 the Swedish Research Council and the Swedish Foundation for Strategic Research through its Centre for Autonomous Systems.
 We thank CVAP/CAS, KTH Royal Institute of technology, Stockholm, Sweden for participating in the dataset and Accel Partners, Bangalore, India for providing vital logistical help.
 
-\IEEEtriggeratref{10}
+%\IEEEtriggeratref{10}
 \bibliographystyle{ieeetr}
 \bibliography{references}
 
