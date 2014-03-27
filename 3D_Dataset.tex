@@ -37,7 +37,7 @@
 
 \graphicspath{{images/}}
 
-\title{ KTH-3D-TOTAL: A 3D Dataset for Discovering Spatial Structures for Long-Term Autonomous Learning
+\title{ KTH-3D-TOTAL:\\A 3D Dataset for Discovering Spatial Structures\\for Long-Term Autonomous Learning
 }
 
 \author{\IEEEauthorblockN{
@@ -52,7 +52,7 @@ Nishan Bhavanishankar Shetty\IEEEauthorrefmark{2},
 \\John Folkesson\IEEEauthorrefmark{1}, 
 Patric Jensfelt\IEEEauthorrefmark{1}}
 \IEEEauthorblockA{\IEEEauthorrefmark{1}CVAP/CAS, KTH Royal Institute of Technology, 
-SE-100 44 Stockholm, Sweden.}%\\ Email: see http://www.kth.se/en/csc/forskning/cvap}
+SE-100 44 Stockholm, Sweden.\\ Email: see http://www.kth.se/en/csc/forskning/cvap}
 \IEEEauthorblockA{\IEEEauthorrefmark{2}M.S. Ramaiah Institute of Technology, V.T.U, 560054 Bangalore, India.}}
 
 \begin{document}
@@ -258,7 +258,7 @@ Thusly, our dataset contributes with the following three important properties:
 \begin{itemize}
 	\item captures full 3D scene instances of a particular scene type (in our case office table-tops)
 	\item contains instances of subsets of objects-of-interest co-occurring in the scenes -- manually annotated for ground truth
-	\item provides long-term periodic observations of the same set of scenes at different times of the day, for several days.
+	\item provides long-term observations of the same set of scenes at different times of the day, over several days in 3 weeks.
 \end{itemize}
 
 Our dataset opens up the possibility to study the structures that govern how space is organised. We want to extract and later exploit these 
@@ -337,8 +337,6 @@ The scenes were recorded as periodically as possible and at time instances belon
 hrs) and \emph{Evening} (18:00 hrs). Scenes contain tables of 20 different people collected over 19 days including weekends. 
 A \textit{Scene\_ID} is attached to each scene to indicate who the table belongs to and the date and time of the recording. These Scene\_IDs help in partitioning the dataset with respect to time of the day \{Morning, Afternoon, Evening\}, person \{Carl, Nils, \dots\}, or day \{2013-11-01, 2013-11-06, 2013-11-13, \dots\}.
 
-The data collection was conducted with minimal disturbance to participants and authors which in effect means: Of the $19$ days$\times3$ times a day$=57$ possible collection instances, only a subset were utilized. Even during these collection instances some tables are left out if the participant was occupied in a meeting, busy with important work etc.
-
 A 3D annotation tool was developed for manually segmenting out objects-of-interest from the point clouds. On average, 12 different objects 
 were labelled, including repeating instances of the same object class, per scene depending upon feasibility and occurrence. The objects 
 belong to the following super set - \{Mouse, Keyboard, Monitor, Laptop, Cellphone, Keys, Headphones, Telephone, Pencil, Eraser, Notebook, 
@@ -352,7 +350,7 @@ manual annotation provides the required ground truth data for long-term autonomo
 This section gives a bullet-summary of the dataset to serve as a quick reference.
 \noindent KTH-3D-TOTAL has:
 \begin{itemize}
-	\item scenes collected from 20 unique tables, 3 times a day for 19 days and hence in total, 477 scenes.
+	\item scenes collected from 20 unique tables, 3 times a day for 19 days and in total, 477 scenes.
 	\item each scene manually annotated at an average of 12 objects per scene. These objects belong to a superset of 18 Objects-of-Interest classes and could even be multiple instances of the same object class.
 	
 	%with 18 possible object classes and an average of 12 object instances, from these classes, annotated per scene, including multiple instances
@@ -608,14 +606,14 @@ will be able to learn models of this structure -- preserving the temporal
 and instance variations in the scenes. 
 The large, manually annotated, benchmark 3D dataset we present, is one-of-a-kind -- 
 providing the means to train long-term autonomous learning systems for spatial 
-understanding. We aim to extend this dataset with scenes pertaining to observations 
-with more temporal regularity. We will also create datasets of room level organisations of 
-objects and even different kinds of table-top scenes (viz.~cafeteria, medical, convenience 
-store table-tops) to explore the aspects of generalisability with respect to concept and 
-specificity in the purview of long term autonomous robotic learning.
+understanding.
 
 Our immediate research plans for this data are to learn and model the spatial relations amidst objects contained in the scenes. Such models and spatial relations can subsequently be tested, verified and also used by the autonomous robots in our collaborative research project (STRANDS) while they operate over months at various sites.  These will
 allow for activity recognition, anomaly detection, and context recognition.
+
+We also aim to make our next dataset with scenes pertaining to observations 
+of periodicity of different resolutions and at different types and scales of scenes to be able to better explore the aspects of generalisability with respect to 
+concept and specificity in the purview of our long term autonomous robotic learning research.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Acknowledgements}
@@ -626,7 +624,7 @@ Union Seventh Framework Programme (FP7/2007-2013) under grant agreement No 60062
 the Swedish Research Council and the Swedish Foundation for Strategic Research through its Centre for Autonomous Systems.
 We thank CVAP/CAS, KTH Royal Institute of technology, Stockholm, Sweden for participating in the dataset and Accel Partners, Bangalore, India for providing vital logistical help.
 
-%\IEEEtriggeratref{10}
+\IEEEtriggeratref{8}
 \bibliographystyle{ieeetr}
 \bibliography{references}
 
